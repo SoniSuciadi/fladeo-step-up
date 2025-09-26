@@ -2,8 +2,8 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { QrCode, Gift, Users, Camera, RotateCcw, Wallet } from "lucide-react";
-import fladeoLogo from "@/assets/fladeo-logo.png";
+import { QrCode, Gift, Users, Camera, RotateCcw, Wallet, Scan, Dice3, UserPlus, Share2 } from "lucide-react";
+import fladeoLogo from "@/assets/fladeo-logo-red.jpeg";
 
 const Index = () => {
   const navigate = useNavigate();
@@ -11,28 +11,28 @@ const Index = () => {
 
   const features = [
     {
-      icon: QrCode,
+      icon: Scan,
       title: "Scan QR",
       subtitle: "Dapat poin instan!",
       path: "/scan",
       className: "btn-primary",
     },
     {
-      icon: Gift,
+      icon: Dice3,
       title: "Spin Harian",
       subtitle: "Menangkan hadiah",
       path: "/spin",
       className: "btn-secondary",
     },
     {
-      icon: Users,
+      icon: UserPlus,
       title: "Ajak Teman",
       subtitle: "Bonus voucher!",
       path: "/referral",
       className: "btn-success",
     },
     {
-      icon: Camera,
+      icon: Share2,
       title: "Bangga Pakai Fladeo",
       subtitle: "Upload OOTD",
       path: "/ootd",

@@ -12,21 +12,21 @@ All colors MUST be HSL.
     --background: 0 0% 98%;
     --foreground: 220 26% 14%;
     
-    /* Primary Brand Colors */
-    --primary: 210 100% 50%;
+    /* Primary Brand Colors - Fladeo Red */
+    --primary: 0 65% 55%;
     --primary-foreground: 0 0% 100%;
-    --primary-light: 210 100% 85%;
-    --primary-glow: 210 100% 70%;
+    --primary-light: 0 65% 85%;
+    --primary-glow: 0 65% 70%;
     
     /* Secondary - Energetic Orange */
     --secondary: 25 95% 55%;
     --secondary-foreground: 0 0% 100%;
     --secondary-light: 25 95% 85%;
     
-    /* Success Green for Points */
-    --success: 142 76% 36%;
+    /* Success Red for Points */
+    --success: 0 65% 55%;
     --success-foreground: 0 0% 100%;
-    --success-light: 142 76% 85%;
+    --success-light: 0 65% 85%;
     
     /* Warning Yellow for Spin */
     --warning: 48 96% 56%;
@@ -36,7 +36,7 @@ All colors MUST be HSL.
     /* Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
     --gradient-secondary: linear-gradient(135deg, hsl(var(--secondary)), hsl(25 95% 70%));
-    --gradient-success: linear-gradient(135deg, hsl(var(--success)), hsl(142 76% 55%));
+    --gradient-success: linear-gradient(135deg, hsl(var(--success)), hsl(0 65% 70%));
     --gradient-hero: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--secondary)));
     
     /* Shadows */
