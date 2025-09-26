@@ -11,28 +11,28 @@ const Index = () => {
 
   const features = [
     {
-      icon: QrCode,
+      icon: Scan,
       title: "Scan QR",
       subtitle: "Dapat poin instan!",
       path: "/scan",
       className: "btn-primary",
     },
     {
-      icon: RotateCcw,
+      icon: Dice3,
       title: "Spin Harian",
       subtitle: "Menangkan hadiah",
       path: "/spin",
       className: "btn-secondary",
     },
     {
-      icon: Users,
+      icon: UserPlus,
       title: "Ajak Teman",
       subtitle: "Bonus voucher!",
       path: "/referral",
       className: "btn-success",
     },
     {
-      icon: Camera,
+      icon: Share2,
       title: "Bangga Pakai Fladeo",
       subtitle: "Upload OOTD",
       path: "/ootd",
